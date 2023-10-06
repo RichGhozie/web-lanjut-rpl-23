@@ -24,3 +24,12 @@ Route::get('/ghz', function () {
     return view('univ.ghz')->with('ghz',$array_nama);
 });
 
+Route::get('/admin', function () {
+
+return view('univ.dashboard');
+});
+
+Route::get('/admin2', function () {
+
+return view('layout.top-nav');
+});
